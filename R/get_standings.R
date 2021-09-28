@@ -35,3 +35,4 @@ get_standings<-function(league_name='EPL'){
   return(standings)
 
 }
+

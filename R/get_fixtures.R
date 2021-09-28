@@ -1,8 +1,7 @@
 
-
 #fixtures from top 5 leagues
 
-get_fixtures<-function(league_name,matchday){
+get_fixtures<-function(league_name){
 
   leagues=list(EPL = 2021, BundesLiga = 2002,
                LaLiga =  2014, Ligue1 = 2015, SerieA = 2019)
