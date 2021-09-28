@@ -1,7 +1,21 @@
 
-#fixtures from top 5 leagues
 
-get_fixtures<-function(league_name,matchday){
+#' Fixtures from top 5 european leagues
+#'
+#' @param league_name must be a character league code name
+#'
+#' @return Data frame of fixtures from a defined league
+#'
+#' @details
+#' League code name must be one of "EPL", "BundesLiga", "LaLiga", "Ligue1", "SerieA"
+#'
+#' @export
+#'
+#' @examples
+#' get_fixtures("EPL")
+#'
+#'
+get_fixtures<-function(league_name){
 
   leagues=list(EPL = 2021, BundesLiga = 2002,
                LaLiga =  2014, Ligue1 = 2015, SerieA = 2019)
