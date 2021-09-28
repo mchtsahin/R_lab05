@@ -1,13 +1,15 @@
 Package: lab05
-Title: What the Package Does (One Line, Title Case)
+Title: Football Data from Web API
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Authors@R: c(
+    person(given = "Farid", family = "Musayev", role = c("cre"), email = "farmu437@student.liu.se"),
+    person(given = "Mücahit", family = "Sahin", role = c("aut"), email = "mucsa806@student.liu.se"),
+    person(given = "Selen", family = "Karaduman", role = c("aut"), email = "selka266@student.liu.se"))
+Description: Package provides different football data for top european 5 leagues.
+   Leagues are from England, Germany, Spain, France and Italy. 
+   Respective league name codes are "EPL", "BundesLiga", "LaLiga", "Ligue1", "SerieA".
+   Provided data includes standings in each league, fixtures and results from previous matches.
+   Top goalscorers for each league are also provided. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
