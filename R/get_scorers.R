@@ -1,7 +1,7 @@
 
 
 
-#' Goal scorers frop top 5 european leagues
+#' Goal scorers from top 5 european leagues
 #'
 #' @param league_name must be a character league code name
 #'
