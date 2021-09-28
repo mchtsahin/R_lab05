@@ -2,6 +2,22 @@
 
 #standings from top 5 leagues
 
+#' Standings from top 5 european leagues
+#'
+#' @param league_name must be a character league code name
+#'
+#'
+#' @return Data frame of results from a defined league
+#'
+#' @details
+#' League code name must be one of "EPL", "BundesLiga", "LaLiga", "Ligue1", "SerieA"
+#'
+#' @export
+#'
+#' @examples
+#' get_standings("EPL")
+#'
+#'
 get_standings<-function(league_name='EPL'){
 
   leagues=list(EPL = 2021, BundesLiga = 2002,

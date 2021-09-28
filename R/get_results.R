@@ -1,7 +1,21 @@
 
 
-#results from top 5 leagues
 
+#' Results from top 5 european leagues
+#'
+#' @param league_name must be a character league code name
+#'
+#' @return Data frame of results from a defined league
+#'
+#'@details
+#'League code name must be one of "EPL", "BundesLiga", "LaLiga", "Ligue1", "SerieA"
+#'
+#' @export
+#'
+#' @examples
+#' get_results("EPL")
+#'
+#'
 get_results<-function(league_name){
 
   leagues=list(EPL = 2021, BundesLiga = 2002,

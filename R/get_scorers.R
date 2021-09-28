@@ -1,7 +1,21 @@
 
 
-#goal scorers from top 5 leagues
 
+#' Goal scorers frop top 5 european leagues
+#'
+#' @param league_name must be a character league code name
+#'
+#' @return Data frame of goal scorers from a defined league
+#'
+#' @details
+#' League code name must be one of "EPL", "BundesLiga", "LaLiga", "Ligue1", "SerieA"
+#'
+#' @export
+#'
+#' @examples
+#' get_scorers("EPL")
+#'
+#'
 get_scorers<-function(league_name){
 
   leagues=list(EPL = 2021, BundesLiga = 2002,
